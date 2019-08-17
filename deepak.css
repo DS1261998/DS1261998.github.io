@@ -166,6 +166,7 @@ a{
 .projects-section{
   color: black;
   font-style: italic;
+  font-weight:700;
   text-align:center;
   padding: 15px 15px;
   background: rgb(81, 82, 83);
