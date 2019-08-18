@@ -1,5 +1,4 @@
 
-
 html{
   box-sizing: border-box;
   font-size:62.5%;
@@ -44,8 +43,8 @@ a{
   margin-bottom: 20px;
   border-radius:50%;
   display: block;
+  max-width:100%;
   height:500px;
-  max-width:100%; 
 }
 
 .nav{
@@ -84,7 +83,7 @@ a{
   align-items: center;
   width:100%;
   height:100%;
-  background-color:black;
+  background: linear-gradient(to right, #030303 0%, #3f3f41 100%);
 }
 
 .welcome-section > p{
@@ -93,7 +92,6 @@ a{
   font-weight:500;
   text-align: center;
   color:rgb(255, 254, 254);
-  text-shadow: 3px 1px 1px rgb(61, 61, 61);
 }  
 
 .welcome-section > ol{
@@ -101,18 +99,18 @@ a{
   font-style: italic;
   font-weight:500; 
   color:rgb(255, 254, 254);
-  text-shadow: 3px 1px 1px rgb(61, 61, 61);
   list-style-type: disc;
   list-style-position: inside;
 }  
 
 .education-section{
-  background: url(deathnote.jpeg);
+  padding: 15px 15px;
   background-size: 100%;
   display:block;
   text-align: center;
   width:100%;
   height:100%;
+  background: linear-gradient(to left, #030303 0%, #3f3f41 100%);
 }
 
 .education-section >h1{
@@ -127,11 +125,10 @@ a{
   text-shadow: 2px 2px black;
 }
 
-.education-section > a{
+.education-section  a{
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
-  
 }
 
 .edu-table{
@@ -146,7 +143,7 @@ a{
 }
 
 #edu-table td,th{
-  border: none;
+  border: 2px solid black;
   padding:5px;
 }
 
@@ -162,14 +159,13 @@ a{
   background-color: rgb(167, 54, 54);
 }
 
-
 .projects-section{
-  color: black;
+  font-weight: 700;
+  color: white;
   font-style: italic;
-  font-weight:700;
   text-align:center;
   padding: 15px 15px;
-  background: rgb(81, 82, 83);
+  background: linear-gradient(to right, #030303 0%, #3f3f41 100%);
 }
 
 .projects-grid{
@@ -184,8 +180,9 @@ a{
 }
 
 .skills{
+  padding: 15px 15px;
   text-align: center;
-  background: black;
+  background: linear-gradient(to left, #030303 0%, #3f3f41 100%);
 }
 
 .skills-img{
@@ -205,8 +202,7 @@ a{
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-.btn-show-all{
-  text-shadow: 2px 2px 2px #1f1f1f;
+.dodie{
   font-size:25px;
   color:black;
   background: gray;
@@ -216,7 +212,7 @@ a{
   margin-bottom: 10px;
 }
 
-.btn-show-all:hover {
+.dodie:hover {
   transform: translateY(5px);
   background: rgb(61, 56, 56);
 }
@@ -310,7 +306,6 @@ footer {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background:black;
 }
 
 footer > p {
